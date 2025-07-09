@@ -6,12 +6,17 @@
         "wdth" 100;
 }
 
+
 /* shared style */
 .text-color1 {
     color: #FD6E0A;
 }
 
-.btn-primary {
+.primary-bg-color{
+    background-color: #FFF8F3;
+}
+
+.btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -21,15 +26,27 @@
     border-radius: 5px;
 }
 
+.font-type1{
+    font-size: 35px;
+    font-weight:700;
+    color: #1E1E1E;
+
+}
+
 
 
 /* nav styles */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom; 
+}
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -57,11 +74,6 @@ nav li a {
     
 }
 
-.header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, right bottom; 
-}
 
 /* Hero section styles */
 
@@ -77,14 +89,47 @@ nav li a {
 .hero-greeting{
     font-size: 45px;
     font-weight: 600px;
+    margin: 0px;
 }
 
 .hero-name{
     font-size: 85px;
     font-weight: bold;
+    margin: 0px;
 }
 
 .hero-des{
     font-size: 18px;
     font-weight: 400;
+    margin: 0px 0px 10px 0px;
+}
+
+/* mian styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-des{
+    font-size: 18px;
+    color: #757575;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-des{
+    font-weight: 600;
 }
