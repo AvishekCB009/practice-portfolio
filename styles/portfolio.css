@@ -22,7 +22,18 @@
     font-size: 20px;
     color: white;
     padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+.btn-secondary{
+    background-color: #00000000;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 35px;
     border: none;
+    border: 2px solid #FD6E0A;
     border-radius: 5px;
 }
 
@@ -215,4 +226,36 @@ main{
 .resume-btn{
     margin: 50px;
     text-align: center;
+}
+
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-des{
+    font-size: 16;
+    font-weight: 400;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    font-size: 16px;
+    font-weight: 400;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 120%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
