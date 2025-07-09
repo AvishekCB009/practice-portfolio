@@ -7,9 +7,21 @@
 }
 
 /* shared style */
-.primary-text {
+.text-color1 {
     color: #FD6E0A;
 }
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 
 /* nav styles */
 
@@ -40,16 +52,39 @@ nav li a {
     font-size: 20px;
 }
 
-.btn-hire {
-    background-color: #FD6E0A;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    padding: 18 35px;
-    border-radius: 5px;
-}
-
-.dark- {
+.font-color-1 {
     color: #474747;
     
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom; 
+}
+
+/* Hero section styles */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.hero-content{
+    max-width: 500px;
+}
+.hero-greeting{
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.hero-name{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.hero-des{
+    font-size: 18px;
+    font-weight: 400;
 }
