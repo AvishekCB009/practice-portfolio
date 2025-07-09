@@ -120,6 +120,13 @@ main{
     margin-top: 130px;
 }
 
+.about-border{
+    background-color: white;
+    max-width: 825px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
 .about-des{
     font-size: 18px;
     color: #757575;
@@ -130,6 +137,11 @@ main{
     justify-content: space-around;
 }
 
+.item-title{
+    margin: 0 auto;
+}
+
 .item-des{
-    font-weight: 600;
+    font-weight: 700;
+    margin: 0 auto;
 }
