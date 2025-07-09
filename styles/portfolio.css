@@ -179,3 +179,40 @@ main{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Resume styling */
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume-title{
+    text-align: center;
+}
+.resume-cards{
+    display: flex;
+    gap: 24px
+}
+
+.experience-title{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.experience-sub{
+    color: #757575;
+    font-size: 20;
+    font-weight:600;
+    margin-top: 0px;
+
+}
+.experience-des{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 10pz;
+}
+
+.resume-btn{
+    margin: 50px;
+    text-align: center;
+}
